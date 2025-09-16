@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 def find_the_redheads(family):
     redheads = filter(lambda x: family[x] == 'red', family.keys())
     return list(redheads)

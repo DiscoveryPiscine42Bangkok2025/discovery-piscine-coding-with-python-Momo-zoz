@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 def shrink(s):
     print(s[:8])
 

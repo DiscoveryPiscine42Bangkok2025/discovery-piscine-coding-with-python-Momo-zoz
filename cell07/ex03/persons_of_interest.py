@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 def famous_births(persons):
     sorted_persons = sorted(persons.items(), key=lambda item: item[1]["date_of_birth"])
     
